@@ -8,10 +8,6 @@
 	<name>sb_demo1</name>
 	<description>Demo project for Spring Boot</description>
 	
-	<properties>
-		<java.version>1.8</java.version>
-		<maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
-	</properties>
 	
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -19,6 +15,11 @@
 		<version>2.2.0.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+	
+	<properties>
+		<java.version>1.8</java.version>
+		<maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
+	</properties>
 
 	<dependencies>
 		<dependency>
